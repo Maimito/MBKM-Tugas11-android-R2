@@ -20,6 +20,7 @@ public class VideoPlayer extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video_player);
+        setTitle("Video Player");
 
         mVideo = (VideoView) findViewById(R.id.video);
         mVideo1 = (Button) findViewById(R.id.video1);
